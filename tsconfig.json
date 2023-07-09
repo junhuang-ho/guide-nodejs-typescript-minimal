@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // instead of CommonJS (for require instead of import)
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "sourceMap": true, // map compiled JS to TS, helpful for debug
+    "outDir": "dist" // where the final JS code is compiled
+  },
+  "include": ["src/**/*"] // tells TS where to find our code, in the src dir
+}
